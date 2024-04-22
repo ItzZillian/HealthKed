@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B3C8CF;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #487b7d;
+    padding: 10px 20px;
+    color: #fff;
+}
+nav ul {
+    list-style-type: none;
+    width: 900px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #305454;
+}
+
+/*intro section*/
+.intro-section {
+    display: flex;
+    width: 94.5%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-content {
+    flex: 0 0 45%; /* Adjust as needed */
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-image {
+    flex: 0 0 60%; /* Adjust as needed */
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.intro-content h2 {
+    color: #005850;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.intro-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.intro-content button {
+    background-color: #487b7d;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.intro-content button:hover {
+    background-color: #579496;
+}
+
+.intro-image img {
+   
+    height: 270px;
+    display: block;
+    border-radius: 5px;
+}
+
+
+
+/*About us*/
+#aboutUs {
+    display: flex;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    width: 50%;
+    height: 80%;
+    padding: 20px;
+    float: left;
+  }
+  
+  .text-wrapper {
+    width: 80%; 
+    height: 370px;;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .text-wrapper h2{
+    color: #005850;
+  }
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .box {
+    background-color: #ddd;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #d4e7ff;
+  }
+
+
+  /*Our Services*/
+
+  #our-services {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#our-services h2 {
+    color: #005850;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.service-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-box {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.service-box h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.service-box button {
+    background-color: #487b7d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.service-box button:hover {
+    background-color: #579496;
+}
+
+
+/*Contact us*/
+#contact-us {
+    padding:20px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#contact-us h2 {
+    color: #005850;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.why-choose-us{
+    width: 96%;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+.emergency-contact {
+    display: block;
+    width: 96%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.service-item {
+    background-color: #e7f8e1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+    color: #004e48;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
